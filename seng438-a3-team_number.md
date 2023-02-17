@@ -21,8 +21,34 @@ Text…
 DataUtilities.calculateColumnTotal
 
 - Data Flow Graph
-- Def-use sets
-- DU-pairs
+
+## Def-use sets
+
+| Line | use            | def      |
+| ---- | -------------- | -------- |
+| 1    | data           |          |
+| 2    |                | total    |
+| 3    | data           | rowCount |
+| 4    | r, rowCount    | r        |
+| 5    | r,column,data  | n        |
+| 6    | n              |          |
+| 7    | total,n        |          |
+| 10   | r2,rowCount    | r2       |
+| 11   | r2,column,data | n        |
+| 12   | n              |          |
+| 13   | total,n        |          |
+| 16   | total          |          |
+
+## DU-pairs
+
+| var      | D-U pair        |
+| -------- | --------------- |
+| total    | (2,7)           |
+| rowCount | (3,4)           |
+| r        | (4,4),(4,5)     |
+| n        | (5,6),(11,12)   |
+| r2       | (10,10),(10,11) |
+
 - DU-pair coverage
 
 Range.getUpperBound
