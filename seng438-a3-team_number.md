@@ -18,7 +18,19 @@ Text…
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-Text…
+DataUtilities.calculateColumnTotal
+
+- Data Flow Graph
+- Def-use sets
+- DU-pairs
+- DU-pair coverage
+
+Range.getUpperBound
+
+- Data Flow Graph
+- Def-use sets
+- DU-pairs
+- DU-pair coverage
 
 # 3 A detailed description of the testing strategy for the new unit test
 
