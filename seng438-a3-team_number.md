@@ -6,7 +6,7 @@
 | --------------- | --- |
 | Student Names:  |     |
 | Chun-chun Huang |     |
-|                 |     |
+| Amneet Deol     |     |
 |                 |     |
 
 (Note that some labs require individual reports while others require one report
