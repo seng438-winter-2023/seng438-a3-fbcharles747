@@ -2,12 +2,12 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:      |     |
-| -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Group \#:       |     |
+| --------------- | --- |
+| Student Names:  |     |
+| Chun-chun Huang |     |
+|                 |     |
+|                 |     |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
@@ -74,13 +74,18 @@ Text…
 
 Text…
 
+## Pros of Eclemma
+
+- easy installation through Eclipse extention market
+
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
 Text…
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-Text…
+- Chun-chun
+  : work on increasing range test coverage
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
