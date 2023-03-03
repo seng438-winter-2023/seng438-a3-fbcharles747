@@ -60,7 +60,7 @@ Range.getUpperBound
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
+We run the coverage tool Elemma for our unit test in assignment 2. Looking at metric for statement coverage, we implement for tests trying to reach 90% statement coverage. As we approach 90% line coverage, our brach coverage reach 70%.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
