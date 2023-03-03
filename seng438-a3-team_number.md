@@ -68,7 +68,31 @@ Text…
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+---------------------------------------
+**DataUtilities Before New Tests**
+
+Instruction Coverage
+![DataUtilitiesInstructionCoverageBefore](https://user-images.githubusercontent.com/72403820/222765254-f4f7a707-37f6-453e-9969-08885eef743c.png)
+
+Branch Coverage
+![DataUtilitiesBranchCoverageBefore](https://user-images.githubusercontent.com/72403820/222765222-5a890cb3-4239-4f72-9e9f-9e573f5d19fa.png)
+
+Method Coverage
+![DataUtilitiesMethodCoverageBefore](https://user-images.githubusercontent.com/72403820/222765322-4a6c6445-44e6-4bff-a6a4-73b0aded85e4.png)
+
+---------------------------------------
+**DataUtilities After New Tests**
+
+Instruction Coverage
+![DataUtilitiesInstructionCoverage](https://user-images.githubusercontent.com/72403820/222765188-de3e2b0f-88cd-4f9d-8b08-a0cd97ec59b4.png)
+
+Branch Coverage
+![DataUtilitiesBranchCoverage](https://user-images.githubusercontent.com/72403820/222765365-7a55d20a-5ac9-40f3-a644-206940972589.png)
+
+Method Coverage
+![DataUtilitiesMethodCoverage](https://user-images.githubusercontent.com/72403820/222765339-cb819f77-a310-4d75-ac10-6bd6dcb0e786.png)
+
+---------------------------------------
 
 ## Range.java
 
