@@ -70,9 +70,17 @@ Text…
 
 Text…
 
-# 6 Pros and Cons of coverage tools used and Metrics you report
+## Range.java
 
-Text…
+### Range statement coverage
+
+<img src="./media/Range_LineCoverage.PNG" />
+
+### Range brach coverage
+
+<img src="./media/Range_BranchCoverage.PNG" />
+
+# 6 Pros and Cons of coverage tools used and Metrics you report
 
 ## Pros of Eclemma
 
