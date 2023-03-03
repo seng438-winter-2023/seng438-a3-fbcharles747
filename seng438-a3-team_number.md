@@ -64,8 +64,11 @@ We run the coverage tool Elemma for our unit test in assignment 2. Looking at me
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Text…
-
+Test Case 1: cloneTest()
+  clone() is a new method in DataUtilities that was not present in assignment 2, and so we had 0% coverage for this function. We created cloneTest() and cloneTestWithNull() to provide coverage over this new method and with these new tests were able to provide 100% instruction, branch, and method coverage on the clone() method.
+  
+Test Case 2: calculateRowTotalWithNegativeColCount()
+ 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
 ---------------------------------------
