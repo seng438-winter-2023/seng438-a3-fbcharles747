@@ -255,5 +255,55 @@ public class DataUtilitiesTest extends DataUtilities{
 		
 		assertTrue( DataUtilities.equal(expected, actual) );
 	}
+	@Test
+	public void calculateColumnTotalWithInvalidColumnIndex() {
+    DataUtilities.calculateColumnTotal(values, 3);
+	}
+	
+	@Test
+	public void calculateRowTotalWithInvalidRowIndex() {
+    DataUtilities.calculateRowTotal(values, 3);
+	}
+	
+	@Test
+	public void calculateRowTotalWithInvalidColumnIndex() {
+    DataUtilities.calculateRowTotal(values, 0, new int[] {3});
+	}
+	
+	@Test
+	public void createNumberArrayWithEmptyArray() {
+    double[] array = {};
+    java.lang.Number[] expected = {};
+    java.lang.Number[] result = DataUtilities.createNumberArray(array);
+    assertArrayEquals(expected, result);
+	}
+
+	@Test
+	public void createNumberArray2DWithEmptyArray() {
+    double[][] array = {};
+    java.lang.Number[][] expected = {};
+    java.lang.Number[][] result = DataUtilities.createNumberArray2D(array);
+    assertArrayEquals(expected, result);
+	}
+
+	@Test
+	public void getCumulativePercentagesWithEmptyDefaultKeyedValues() {
+    DefaultKeyedValues data = new DefaultKeyedValues();
+    KeyedValues result = DataUtilities.getCumulativePercentages(data);
+    assertTrue(result.getKeys().isEmpty());
+	}
+
+
+	@Test
+	public void getCumulativePercentagesWithSingleValueDefaultKeyedValues() {
+    DefaultKeyedValues data = new DefaultKeyedValues();
+    data.addValue("0", 9);
+    KeyedValues result = DataUtilities.getCumulativePercentages(data);
+    assertEquals(1, result.getKeys().size());
+    assertEquals(1.0, result.getValue("0"));
+	}
+
+
+
 
 }

@@ -7,7 +7,7 @@
 | Student Names:  |     |
 | Chun-chun Huang |     |
 | Amneet Deol     |     |
-|                 |     |
+| Shreosi Debnath |     |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
