@@ -64,21 +64,32 @@ We run the coverage tool Elemma for our unit test in assignment 2. Looking at me
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
+## DataUtilitiesTest
+
 Test Case 1: cloneTest()
-  clone() is a new method in DataUtilities that was not present in assignment 2, and so we had 0% coverage for this function. We created cloneTest() and cloneTestWithNull() to provide coverage over this new method and with these new tests were able to provide 100% instruction, branch, and method coverage on the clone() method.
-  
+clone() is a new method in DataUtilities that was not present in assignment 2, and so we had 0% coverage for this function. We created cloneTest() and cloneTestWithNull() to provide coverage over this new method and with these new tests were able to provide 100% instruction, branch, and method coverage on the clone() method.
+
 Test Case 2: calculateRowTotalWithNegativeColCount()
-  calculateRowTotal() is a method in DataUtilities that we had 83% coverage for from Assignment 2. There was one pathway that we were not testing which was when a Values2D with a negative column count is passed in, 0 should be returned. We created a new test calculateRowTotalWithNegativeColCount() to test this functionality and were able to achieve 100% instruction, branch, and method coverage on the calculateRowTotal() method.
-  
-Test Case 3:
+calculateRowTotal() is a method in DataUtilities that we had 83% coverage for from Assignment 2. There was one pathway that we were not testing which was when a Values2D with a negative column count is passed in, 0 should be returned. We created a new test calculateRowTotalWithNegativeColCount() to test this functionality and were able to achieve 100% instruction, branch, and method coverage on the calculateRowTotal() method.
 
-Test Case 4:
+## RangeTest
 
-Test Case 5:
- 
+Test Case 3: testCombine_Range1ParamIsNull(),testCombine_Range2ParamIsNull()
+
+combine(range1: Range,range2 Range) is a method that we had around 50% line coverage and 30% brach coverage in our assignment 2. It will in fact return one of the range if the other range is null, so we increase the line coverage to 100% and branch cover to 100% by setting one of the parameter to null in both test methods.
+
+Test Case 4: testScale_FactorSmallerThanZero_ThrowIllegalArgumentException()
+
+scale(range:Range,factor:double) is the method we did not cover in assignment 2. By entering the expected argument, we can only reach 50% line and brach coverage. In this test cases, we enter a factor which is smaller than 0, so the method will throw an exception. Then we reach 100% line and branch coverage
+
+Test Case 5: testShift_shiftExampleRangeBy5AllowingZeroCrossing()
+
+shift(base:Range,delta:double,allowZeroCrossing:boolean) is the base of other shift method in the Range class. Other shift method will call this method with allowZeroCrossing set to false, so the branch coverage would be 50% and the line coverage would be about 60%. We use this test method to call shift setting allowZeroCrossing to true, so it has branch and statement completely covered by our test cases.
+
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
----------------------------------------
+---
+
 **DataUtilities Before New Tests**
 
 Instruction Coverage
@@ -90,7 +101,8 @@ Branch Coverage
 Method Coverage
 ![DataUtilitiesMethodCoverageBefore](https://user-images.githubusercontent.com/72403820/222765322-4a6c6445-44e6-4bff-a6a4-73b0aded85e4.png)
 
----------------------------------------
+---
+
 **DataUtilities After New Tests**
 
 Instruction Coverage
@@ -102,7 +114,7 @@ Branch Coverage
 Method Coverage
 ![DataUtilitiesMethodCoverage](https://user-images.githubusercontent.com/72403820/222765339-cb819f77-a310-4d75-ac10-6bd6dcb0e786.png)
 
----------------------------------------
+---
 
 ## Range.java
 
