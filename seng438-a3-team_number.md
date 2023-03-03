@@ -77,6 +77,12 @@ Text…
 ## Pros of Eclemma
 
 - easy installation through Eclipse extention market
+- provide code measurement by using variety of coverage metrics, such as line coverage, branch coverage
+- Elemma highlight the codes that have been covered during the testing
+
+## Cons of Elemma
+
+- only measures coverage during testing but it does not provide insight to quality or performance of the codes
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
