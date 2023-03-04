@@ -56,7 +56,21 @@ Range.getUpperBound
 
 - Data Flow Graph
 - Def-use sets
+
+| Line | use            | def      |
+| ---- | -------------- | -------- |
+| 1    | lower, upper   |          |
+| 2    | msg, lower     | msg      |
+| 3    | upper          |          |
+| 4    | msg            |          |
+
+
 - DU-pairs
+
+| var      | D-U pair        |
+| -------- | --------------- |
+| msg      | (2,2), (2,4)    |
+
 - DU-pair coverage
 
 # 3 A detailed description of the testing strategy for the new unit test
