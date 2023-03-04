@@ -49,7 +49,7 @@ DataUtilities.calculateColumnTotal
 | rowCount | (1,2), (1,5)               |
 | n        | (2,3), (2,4), (5,6), (5,7) |
 
-- DU-pair coverage
+- DU-pair coverage: From assignment 2, we only had 1 test: calculateColumnTotalForThreeValues for the calculateColumnTotal method and it has 0% branch coverage because the test case  didn't cover any pairs. 
 
 Range.getUpperBound
 
