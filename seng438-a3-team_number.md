@@ -55,8 +55,7 @@ DataUtilities.calculateColumnTotal
 Range.getUpperBound
 
 - Data Flow Graph
-![IMG_9BCB8B7A8362-1](https://user-images.githubusercontent.com/101241102/222870257-d8e49f75-2094-4774-babc-6bad8eb46913.jpeg)
-
+![IMG_A7C91BBE260D-1](https://user-images.githubusercontent.com/101241102/222870797-f08d4eb7-f46b-4148-84ee-b687a627e658.jpeg)
 
 - Def-use sets
 
@@ -69,12 +68,10 @@ Range.getUpperBound
 
 
 - DU-pairs
-
-| var      | D-U pair        |
-| -------- | --------------- |
-| msg      | (2,2), (2,4)    |
+There are actually no DU pairs because it always executes the same path (regardless of the upper, lower values). 
 
 - DU-pair coverage
+There are no decisions that need to be made in this method (or conditions) so there are actually no alternative paths so no coverage considerations (it will always execute/follow the same path). We probably should have chosen a different method for this in hindsight.
 
 # 3 A detailed description of the testing strategy for the new unit test
 
