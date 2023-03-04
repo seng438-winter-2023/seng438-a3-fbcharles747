@@ -144,8 +144,7 @@ Text…
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-- Chun-chun
-  : work on increasing range test coverage
+As this lab assignment fell over reading week, 2 members worked on the manual data-flow coverage calculations and graph during the lab session. The test-writing was then split between members of the group in preparation for the demo. We checked each other's work for the tests and helped to increase the coverage and also collaborated on finishing the report. 
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
