@@ -15,7 +15,7 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-Text…
+This assignment is about unit testing using JUnit in Eclipse. We learnt how to use testing tools and then enhance the test suite. This assignment introduced white-box coverage criteria as a technique for deciding which test cases to develop which was something new for us to learn. White-box coverage criteria tests the internal structure of the code. It ensures that all parts of the code are executed at least once during testing, which helps uncover defects. There are different levels of white-box coverage criteria, such as statement coverage, branch coverage, and path coverage. We did all three coverages for this assignment. 
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
@@ -154,7 +154,38 @@ Method Coverage
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+Most commonly used software testing methods are requirements-based and coverage-based.
+
+Requirements-based testing makes sure that the software meets all the functional requirements specified by the stakeholders. This is useful for high end systems, but can be time-consuming and may miss defects that aren't explicitly defined in the requirements.
+
+Advantages:
+
+1.Ensures that the software meets all the functional requirements.
+2.Helps identify gaps or inconsistencies in the requirements and provides valuable feedback.
+3.Useful for highly used and high stakes systems where meeting all requirements is essential.
+
+
+Disadvantages:
+
+1.May miss defects that are not explicitly defined in the requirements.
+2.Does not consider any aspects of the software beyond the requirements.
+3.Time-consuming and expensive, especially for complex requirements.
+
+Coverage-based testing aims to test the software thoroughly, looking beyond just specific requirements. This can help find defects that aren't covered by the requirements, but it can be difficult to prioritize which parts of the code to test first and there's a risk of generating test cases that aren't useful.
+
+Advantages:
+
+1.Can identify defects not covered by requirements, such as boundary cases or unexpected inputs.
+2.Tests software more thoroughly, increases quality.
+3.Useful for testing non-functional requirements.
+
+
+Disadvantages:
+
+1.May not achieve full code coverage, especially in large or complex systems.
+2.Can be difficult to prioritize which code to test first, leading to inefficient use of resources.
+3.Risk of generating irrelevant or useless test cases.
+4.Wastes time and resources.
 
 # 8 A discussion on how the team work/effort was divided and managed
 
