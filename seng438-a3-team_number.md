@@ -22,6 +22,7 @@ Text…
 DataUtilities.calculateColumnTotal
 
 - Data Flow Graph
+![IMG_E8C7C0F08807-1](https://user-images.githubusercontent.com/101241102/222871637-c9c8464f-14e8-439d-9db8-4b585c0ee582.jpeg)
 
 ## Def-use sets
 
@@ -42,13 +43,11 @@ DataUtilities.calculateColumnTotal
 
 ## DU-pairs
 
-| var      | D-U pair        |
-| -------- | --------------- |
-| total    | (2,7)           |
-| rowCount | (3,4)           |
-| r        | (4,4),(4,5)     |
-| n        | (5,6),(11,12)   |
-| r2       | (10,10),(10,11) |
+| var      | D-U pair                   |
+| -------- | ---------------            |
+| total    | (1,3,8), (1,4,8)           |
+| rowCount | (1,2), (1,5)               |
+| n        | (2,3), (2,4), (5,6), (5,7) |
 
 - DU-pair coverage
 
