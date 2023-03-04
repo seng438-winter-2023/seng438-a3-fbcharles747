@@ -149,8 +149,8 @@ Text…
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+A couple of members in the group had initial issues setting up the system from assignment 2, especially with the package locations, but once that was figured out, it was not too complicated. We did also have issues reaching the 90% statement coverage due to the unreachable sections of code, but achieved 89.9% in the end. We all learned a lot about the coverage tools as well and realized how impactful unreachable code can be on your coverage. 
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+We enjoyed working on the lab and building off of the tests written in assignment 2. It was especially interesting to see the initial coverage that we had from assignment 2 and how much we could improve through the added coverage testing. It really helped to better conceptualize how much effort goes into comprehensive testing as a whole. 
